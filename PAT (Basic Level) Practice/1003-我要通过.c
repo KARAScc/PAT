@@ -61,9 +61,9 @@ int main()
        result[i]=1;
      else
        result[i]=0;
-       
-       if(c!='\n')
-          while(getchar()!='\n');
+     // 删除不符合条件的多余字符串    
+     if(c!='\n')
+        while(getchar()!='\n');
   }
   
   // 输出结果 
